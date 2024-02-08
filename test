@@ -1,0 +1,26 @@
+media-fonts/nerd-fonts::gentoo-zh ~amd64
+x11-themes/WhiteSur-icon-theme ~amd64
+dev-cpp/sdbus-c++ ~amd64
+gui-apps/swww ~amd64
+net-misc/teamviewer ~amd64
+sys-power/tlp ~amd64
+app-misc/brightnessctl ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+dev-libs/hyprlang ~amd64
+gui-apps/eww ~amd64
+dev-lang/rust ~amd64
+gui-apps/wlogout ~amd64
+>=app-editors/vscode-1.63.2 ~amd64
+sys-kernel/gentoo-sources
+*/*::steam-overlay
+games-util/game-device-udev-rules
+# package.accept_keywords# required by net-wireless/broadcom-sta (argument)
+=net-wireless/broadcom-sta-6.30.223.271-r7 ~amd64
+# required by =gui-apps/foot-1.16.1 (argument)
+=gui-apps/foot-1.16.1 ~amd64
+# required by =gui-apps/foot-1.15.3 (argument)
+=gui-apps/foot-1.15.3 ~amd64
+# required by net-misc/teamviewer (argument)
+=net-misc/teamviewer-15.42.4 ~amd64
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.25.2 ~amd64
