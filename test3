@@ -1,0 +1,1 @@
+make mrproper && zcat /proc/config.gz > .config && make modules_prepare && make modules && make && make modules_install && make install && emerge @module-rebuild
