@@ -1,0 +1,7 @@
+sys-fs/lvm2 lvm
+sys-fs/lvm2 systemd
+net-misc/networkmanager wifi
+net-misc/networkmanager -iwd
+>=net-wireless/wpa-supplicant-2.12-r3 dbus
+sys-apps/systemd boot
+sys-apps/systemd kernel-install
