@@ -1,0 +1,2 @@
+dev-lang/rust clippy rust-analyzer rust-src rustfmt
+dev-lang/rust-bin clippy rust-analyzer rust-src rustfmt

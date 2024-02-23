@@ -1,0 +1,3 @@
+net-misc/networkmanager wifi
+net-misc/networkmanager -iwd
+>=net-wireless/wpa-supplicant-2.12-r3 dbus

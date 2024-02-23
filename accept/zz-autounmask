@@ -1,0 +1,10 @@
+# package.accept_keywords# required by net-wireless/broadcom-sta (argument)
+=net-wireless/broadcom-sta-6.30.223.271-r7 ~amd64
+# required by =gui-apps/foot-1.16.1 (argument)
+=gui-apps/foot-1.16.1 ~amd64
+# required by =gui-apps/foot-1.15.3 (argument)
+=gui-apps/foot-1.15.3 ~amd64
+# required by net-misc/teamviewer (argument)
+=net-misc/teamviewer-15.42.4 ~amd64
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.25.2 ~amd64

@@ -1,0 +1,10 @@
+dev-cpp/sdbus-c++ ~amd64
+gui-apps/swww ~amd64
+net-misc/teamviewer ~amd64
+sys-power/tlp ~amd64
+app-misc/brightnessctl ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+dev-libs/hyprlang ~amd64
+gui-apps/eww ~amd64
+dev-lang/rust ~amd64
+gui-apps/wlogout ~amd64

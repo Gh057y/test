@@ -1,0 +1,15 @@
+sys-apps/systemd boot
+sys-apps/systemd kernel-install
+# required by net-misc/networkmanager-1.42.6-r2::gentoo[wifi,-iwd]
+# required by net-misc/networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.10-r3 dbus
+# required by gui-wm/sway-1.8.1::gentoo[wallpapers]
+# required by sway (argument)
+>=gui-apps/swaybg-1.2.0 gdk-pixbuf
+>=media-plugins/alsa-plugins-1.2.7.1-r1 pulseaudio
+# required by dev-cpp/cairomm-1.14.4::gentoo
+# required by dev-cpp/pangomm-2.46.3::gentoo
+# required by dev-cpp/gtkmm-3.24.8::gentoo
+# required by gui-apps/waybar-0.9.22::gentoo
+# required by waybar (argument)
+>=x11-libs/cairo-1.18.0 -X

@@ -1,0 +1,42 @@
+media-libs/libsndfile minimal
+media-sound/mpg123 -pulseaudio
+# required by xfce-base/xfce4-panel-4.18.5::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.18.8::gentoo[trash-panel-plugin]
+# required by thunar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by media-gfx/blender-3.3.8::gentoo
+# required by media-gfx/blender (argument)
+>=media-libs/freetype-2.13.2 brotli
+# required by media-gfx/blender-3.3.8::gentoo[ffmpeg]
+# required by media-gfx/blender (argument)
+>=media-video/ffmpeg-6.0-r9 opus vpx theora
+# required by media-libs/mesa-23.3.1::gentoo[X]
+# required by app-editors/vscode-1.85.1-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-keysyms-0.4.1 abi_x86_32
+# 
+>=media-libs/fontconfig-2.14.2-r3 abi_x86_32
+# required by media-libs/fontconfig-2.14.2-r3::gentoo
+# required by x11-libs/wxGTK-3.2.2.1-r3::gentoo[X]
+# required by app-crypt/veracrypt-1.26.7::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.13.2 abi_x86_32
+# required by media-libs/freetype-2.13.2::gentoo[brotli]
+# required by media-libs/fontconfig-2.14.2-r3::gentoo
+# required by x11-libs/wxGTK-3.2.2.1-r3::gentoo[X]
+# required by app-crypt/veracrypt-1.26.7::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-arch/brotli-1.1.0 abi_x86_32
+# required by media-libs/freetype-2.13.2::gentoo[png]
+# required by media-libs/fontconfig-2.14.2-r3::gentoo
+# required by x11-libs/wxGTK-3.2.2.1-r3::gentoo[X]
+# required by app-crypt/veracrypt-1.26.7::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libpng-1.6.40-r1 abi_x86_32
+# required by gui-apps/eww-0.4.0::guru
+# required by gui-apps/eww (argument)
+>=dev-lang/rust-1.74.1 nightly
